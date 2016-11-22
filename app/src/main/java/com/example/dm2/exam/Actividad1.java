@@ -52,17 +52,18 @@ public class Actividad1 extends AppCompatActivity {
     }
     public void evaluar (View v)
     {
-        spinner1.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-            @Override
-            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                provincia= parent.getItemAtPosition((position)+1).toString();
-            }
-
-            @Override
-            public void onNothingSelected(AdapterView<?> parent) {
-                provincia="Alava";
-            }
-        });
+        if (spinner1.getSelectedItem().equals("Alava"))
+        {
+            provincia="Alava";
+        }
+        if (spinner1.getSelectedItem().equals("Bizkaia"))
+        {
+            provincia="Bizkaia";
+        }
+        if (spinner1.getSelectedItem().equals("Guipuzkoa"))
+        {
+            provincia="Guipuzkoa";
+        }
         if (radio1.isChecked())
         {
             sexo="Masculino";
