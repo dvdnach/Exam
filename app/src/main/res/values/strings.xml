@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Examen 1ª Eval</string>
+    <string name="act1">Actividad1</string>
+    <string name="act2">Actividad2</string>
+    <string name="act3">Actividad3</string>
+    <string name="salir">Salir</string>
+    <string name="toast1">Actividad no implementada</string>
+    <string name="lblperfil">Perfil del candidato:</string>
+    <string name="lblnombre">Nombre:</string>
+    <string name="lblprovincia">Provincia:</string>
+    <string name="lblsexo">Sexo:</string>
+    <string name="radio1">Masculino</string>
+    <string name="radio2">Femenino</string>
+    <string name="lblconocimientos">Conocimientos:</string>
+    <string name="chk1">PHP</string>
+    <string name="chk2">JAVA</string>
+    <string name="chk3">HTML</string>
+    <string name="chk4">CSS</string>
+    <string name="lblresultado">Resultado de la operacion:</string>
+    <string name="lbltxtsuma">+</string>
+    <string name="lbltxtigual">=</string>
+    <string name="btnevaluar">Evaluar</string>
+    <string name="lblcandidatos">Candidatos: </string>
+    <string name="lblnombre2">Nombre:</string>
+    <string name="lblprovincia2">Provincia:</string>
+    <string name="lblsexo2">Sexo:</string>
+    <string name="lblconocimientos2">Conocimientos:</string>
+    <string name="btnaceptar">Aceptar</string>
+    <string name="btnrechazar">Rechazar</string>
+    <string name="lblseleccion">Seleccion de Candidato</string>
+</resources>
