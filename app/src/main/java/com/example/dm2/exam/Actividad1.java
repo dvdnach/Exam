@@ -159,3 +159,8 @@ public class Actividad1 extends AppCompatActivity {
         }
     }
 }
+   /* int randomWithRange(int min, int max)
+    {
+        int range = (max - min) + 1;
+        return (int)(Math.random() * range) + min;
+    }*/
