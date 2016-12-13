@@ -14,7 +14,7 @@ public class Entrada extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_entrada);
+        setContentView(R.layout.activity_entrada2);
         btnact1 = (Button) findViewById(R.id.btnact1);
     }
     public void act1 (View v)
